@@ -26,9 +26,9 @@ cd build
 if [ ! -d $PHP ] ; then
 
 	wget --no-check-certificate $URL -O $PHP.tar.bz2
-	wget --no-check-certificate $SIG -O $PHP.tar.bz2.asc
+	#wget --no-check-certificate $SIG -O $PHP.tar.bz2.asc
 
-	gpg --trust-model always --verify $PHP.tar.bz2.asc
+	#gpg --trust-model always --verify $PHP.tar.bz2.asc
 
 	tar xjf $PHP.tar.bz2
 fi
