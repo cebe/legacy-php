@@ -14,7 +14,7 @@ RUN apt-get update ; apt-get -y install wget bzip2 libc6-dev build-essential aut
 
 ENV PHP_AUTOCONF=autoconf2.13
 
-RUN cd /opt && ./make-php-keyring.sh
+#RUN cd /opt && ./make-php-keyring.sh
 RUN cd /opt && ./make-php.sh custom
 
 
