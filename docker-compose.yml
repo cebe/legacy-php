@@ -1,0 +1,9 @@
+version: '2.4'
+services:
+    php:
+        build: _docker
+        volumes:
+            - ./:/var/www/html
+        ports:
+            - 8123:80
+
