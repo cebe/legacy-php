@@ -1,5 +1,5 @@
-PHP 5.3 in a docker file
-========================
+PHP 5.3 in a docker container
+=============================
 
 ![phpinfo PHP 5.3](screenshot.png)
 
